@@ -3,7 +3,7 @@
 #include "resource.h"
 
 // MWinLib
-//#include "mwinlib/mwinlib.h"
+#include "mwinlib/mwinlib.h"
 
 MMessageMap messageMap;
 DEF_WNDPROC(WndProc, messageMap)
