@@ -22,11 +22,11 @@ This app will support all the features present in the default Win32 demo provide
 
 First, you will need to clone the repository
 
-<img width="50%"src="https://uh09h043tgr.shx.is/55fZT0oWp.png" />
+<img width="50%" src="https://uh09h043tgr.shx.is/55fZT0oWp.png" />
 
 Copy the "mwinlib" folder into your project directory or libs folder.
 
-<img width="70%"src="https://uh09h043tgr.shx.is/55g0Tu4L2.png" />
+<img width="70%" src="https://uh09h043tgr.shx.is/55g0Tu4L2.png" />
 
 Now, create your source file.
 
