@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mwinlib">
+      <UniqueIdentifier>{37f102de-9e49-4ab7-8641-b413b747769f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseExample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mwinlib\controls\commoncontrols.h">
+      <Filter>mwinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="mwinlib\mwindiag.h">
+      <Filter>mwinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="mwinlib\mwindow.h">
+      <Filter>mwinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="mwinlib\mwinlib.h">
+      <Filter>mwinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="mwinlib\mwinmsg.h">
+      <Filter>mwinlib</Filter>
+    </ClInclude>
+    <ClInclude Include="mwinlib\winpredef.h">
+      <Filter>mwinlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mwinlib\controls\commoncontrols.cpp">
+      <Filter>mwinlib</Filter>
+    </ClCompile>
+    <ClCompile Include="mwinlib\mwindow.cpp">
+      <Filter>mwinlib</Filter>
+    </ClCompile>
+    <ClCompile Include="mwinlib\mwinmsg.cpp">
+      <Filter>mwinlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MWinLib.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MWinLib.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -4,7 +4,7 @@
 
 //  ==== MWindowClass ==== //
 
-void MWindowClass::Generate(HINSTANCE hInstance, int style, TCHAR* className, WNDPROC wndProc)
+void MWindowClass::Generate(HINSTANCE hInstance, int style, const TCHAR* className, WNDPROC wndProc)
 {
 	// Clear struct
 	*this = {};
@@ -64,7 +64,7 @@ BOOL MWindow::InitInstance(HINSTANCE hInst, int nCmdShow)
 	return TRUE;
 }
 
-void MWindow::Create(HINSTANCE hInst, MWindowClass windowClass, TCHAR* windowTitle, int style, int x, int y, int width, int height)
+void MWindow::Create(HINSTANCE hInst, MWindowClass windowClass, const TCHAR* windowTitle, int style, int x, int y, int width, int height)
 {
 	hInstance = hInst;
 

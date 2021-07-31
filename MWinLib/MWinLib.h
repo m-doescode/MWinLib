@@ -1,3 +1,9 @@
 #pragma once
 
-#include "resource.h"
+#define MAX_LOADSTRING 100
+
+#include "mwindow.h"
+#include "mwindiag.h"
+#include "mwinmsg.h"
+
+#include "controls/commoncontrols.h"

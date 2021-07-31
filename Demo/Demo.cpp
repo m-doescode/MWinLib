@@ -2,8 +2,9 @@
 //
 
 #include "framework.h"
-#include "MWinLib.h"
+#include "Demo.h"
 
+// This would normally be where you put your library
 #include "mwinlib/mwinlib.h"
 
 #include <algorithm>

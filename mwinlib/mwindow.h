@@ -9,7 +9,7 @@ using std::map;
 class MWindowClass: public WNDCLASSEX
 {
 public:
-	void Generate(HINSTANCE hInst, int style, TCHAR* className, WNDPROC wndProc);
+	void Generate(HINSTANCE hInst, int style, const TCHAR* className, WNDPROC wndProc);
 	void Register();
 };
 
@@ -32,7 +32,7 @@ protected:
 	// Functions
 protected:
 public:
-	void Create(HINSTANCE hInst, MWindowClass mWindowClass, TCHAR* windowTitle, int style = 0, int x = 0, int y = 0, int width = 0, int height = 0);
+	void Create(HINSTANCE hInst, MWindowClass mWindowClass, const TCHAR* windowTitle, int style = 0, int x = 0, int y = 0, int width = 0, int height = 0);
 	virtual BOOL InitInstance(HINSTANCE hInst, int nCmdShow);
 };
 
