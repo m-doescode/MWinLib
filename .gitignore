@@ -7,6 +7,10 @@
 Demo/mwinlib
 Tutorial/mwinlib
 
+MWinLib/MWinLib.h
+MWinLib/MWinLib.vcxproj
+MWinLib/MWinLib.vcxproj.filters
+
 # User-specific files
 *.rsuser
 *.suo
